@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemimg"
+        android:src="@drawable/ic_exams_black"/>
+
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="name"
+        android:textColor="#132589"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>
+        
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

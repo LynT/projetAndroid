@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_logout_black"
+        android:title="logout"
+         />
+
+   <item android:id="@+id/projects"
+       android:title="@string/projects"
+       android:enabled="true"
+       android:icon="@drawable/ic_projects_black"
+       />
+
+    <item android:id="@+id/dates"
+        android:enabled="true"
+        android:icon="@drawable/ic_dates_black"
+        android:title="Data"
+        />
+
+
+</menu>
+
